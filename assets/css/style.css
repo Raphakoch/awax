@@ -244,10 +244,74 @@ flex: 1;
 .section-serviço {
     flex:1;
     text-align: center;
-    text-transform: uppercase;
+    border-left: solid 1px #333;
+    border-right: solid 1px #333;
+    padding: 15px;
 }
 
+.section-serviço h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
 .section-serviço p {
+    margin-top: 10px;
+    font-size: 14px;
     text-transform: lowercase;
     text-align: left;
+    color: #999;
+}
+
+
+.section-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.section-projects--filters {
+   
+    background-color: #eee;
+    border-radius: 30px;
+    border: solid 1px #999;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.section-projects--filters ul,
+.section-projects--filters li,
+.section-projects--filters a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.section-projects--filters li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    border-right: solid 1px #333;
+    font-size: 13px;
+    border-bottom: 3px solid #eee;
+    cursor: pointer;
+}
+
+.section-projects--filters li:hover,
+.section-projects--filters li.active {
+    border-bottom: 3px solid #b28756;
+}
+
+
+
+.section-projects--filters li:last-child {
+    border-right: 0;
+}
+
+.section-projects--filters a {
+    font-size: 20px;
+    font-size: 700;
+    color:#000
+}
+.section-projects--filters a:hover {
+    color: red;
 }
