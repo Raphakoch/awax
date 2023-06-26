@@ -244,4 +244,10 @@ flex: 1;
 .section-serviço {
     flex:1;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.section-serviço p {
+    text-transform: lowercase;
+    text-align: left;
 }
